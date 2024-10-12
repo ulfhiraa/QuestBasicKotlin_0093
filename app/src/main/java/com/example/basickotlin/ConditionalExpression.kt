@@ -7,3 +7,15 @@ a) if-else
 b) when
 c) try-catch
 */
+
+fun ConditionalStatement() {
+    println("=== CONDITIONAL EXPRESSION ===")
+
+    // if-else
+    val number = 10
+    if (number > 0) {
+        println("Positive Number")
+    } else {
+        println("Negative Number")
+    }
+}
