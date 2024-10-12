@@ -37,6 +37,16 @@ fun ContohList(){
     println(shape)
 
     // List Read-Only
-    val shapesLocked: List<String> = shape
+    val shapesLocked: List<String> = shape // Agar list Read-Only, tidak dapat diubah (namaObjek+Locked)
     println(shapesLocked)
 }
+
+// SET
+/*
+SET adalah kumpulan data yang tidak memiliki posisi atau urutan tertentu dan
+hanya menyimpan data UNIK (tidak ada duplikasi data).
+bersifat :
+a) Unordered -> data yang dimasukkan tidak memiliki posisi tertentu (tidak urut)
+b)  - Mutable : data dapat diubah (mutableSetOf)
+    - Read Only : data tidak dapat diubah (setOf)
+*/
