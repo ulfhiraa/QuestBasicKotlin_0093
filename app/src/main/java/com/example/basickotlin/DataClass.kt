@@ -11,7 +11,15 @@ memiliki nilai yang berbeda untuk atribut-atributnya.
 */
 
 // kelas data DataClass dengan atribut id dan email
-data class DataClass(
+data class DataClass( // data class (nama kelas data)
     val id: Int,
     var email: String
 )
+
+fun main(){
+    /* Fungsi toString : Mencetak string yang dapat dibaca dari instance kelas dan propertinya.
+    menggunakan fungsi cetak (println() dan print()) yang secara otomatis memanggil .toString() */
+    val data = DataClass(1, "ulfah@gmail.com")
+    println(data)
+
+}
