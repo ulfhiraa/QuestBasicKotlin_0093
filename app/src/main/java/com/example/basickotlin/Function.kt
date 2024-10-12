@@ -54,3 +54,10 @@ atau menggunakan hasil tersebut di tempat lain.
 fun withReturn(panjang : Int, lebar : Int) {
     return println ( panjang * lebar)
 }
+
+fun main(){
+    withoutParameter()
+    withParameter("Namjoon")
+    withNamedArgument(name = "Namjoon", age = 30)
+    withDefaultParameter(age = 20)
+}
