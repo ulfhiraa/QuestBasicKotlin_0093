@@ -29,7 +29,7 @@ fun main() {
     val doubleValue: Double = 60.6
     println("Double: $doubleValue")
 
-    //CHARACTERS
+    //CHARACTERS : Char
     // Char
     val charValue: Char = 'A'
     println("Char: $charValue")
