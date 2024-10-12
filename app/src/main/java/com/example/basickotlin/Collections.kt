@@ -62,4 +62,6 @@ fun ContohSet() {
     // SET Mutable, Data dapat diubah
     val shape: MutableSet<String> = mutableSetOf("Circle", "Square", "Triangle")
     println(shape)
+
+    //
 }
