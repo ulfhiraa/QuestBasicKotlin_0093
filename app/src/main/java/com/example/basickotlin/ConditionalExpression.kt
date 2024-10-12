@@ -66,4 +66,11 @@ fun Perulangan() {
         println("Perulangan ke-$i")
     }
 
+    // fungsi listOf untuk membuat List Read-Only (data tidak bisa diubah)
+    val cars = listOf("BMW", "Toyota", "Honda", "Audi")
+    // perulangan pada daftar cars dan disimpan pada variabel car. dan menampilkan jenis
+    for (car in cars) {
+        println("Car type: $car")
+    }
+
 }
