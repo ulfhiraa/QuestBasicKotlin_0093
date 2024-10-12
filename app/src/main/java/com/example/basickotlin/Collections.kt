@@ -72,6 +72,15 @@ fun ContohSet() {
     println(shape)
 
     // SET Read-Only
-    val shapesLocked: Set<String> = shape // (variabel)Locked agar data tidak bisa diubah
+    val shapesLocked: Set<String> = shape // (variabel)Locked mengunci agar data tidak bisa diubah
     println(shapesLocked)
 }
+
+//MAP
+/*
+* MAP adalah kumpulan data yang disusun dalam pasangan key-value
+* bersifat :
+a) Unordered -> data yang dimasukkan tidak memiliki posisi tertentu
+b)  - Mutable : data dapat diubah (mutableMapOf)
+    - Read Only : data tidak dapat diubah (mapOf)
+*/
