@@ -66,11 +66,23 @@ fun Perulangan() {
         println("Perulangan ke-$i")
     }
 
-    // fungsi listOf untuk membuat List Read-Only (data tidak bisa diubah)
+    /*perulangan FOR untuk mengulang data yang ada pada variabel Cars.
+    dan menggunakan fungsi liftOf agar menjadi Read-Only, data tidak dapat diubah.
+    fungsi listOf untuk membuat List Read-Only (data tidak bisa diubah) */
+
     val cars = listOf("BMW", "Toyota", "Honda", "Audi")
-    // perulangan pada daftar cars dan disimpan pada variabel car. dan menampilkan jenis
+    // perulangan pada daftar cars dan disimpan pada variabel car
     for (car in cars) {
         println("Car type: $car")
+    }
+
+    /* WHILE
+    mengeksikusi blok kode selama ekspresi kondisional bernilai benar (while)
+    perulangan WHILE untuk melanjutkan tindakan hingga kondisi tertentu terpenuhi. */
+    var x = 1
+    while (x <= 5) {
+        println("Perulangan ke-$x")
+        x++
     }
 
 }
