@@ -43,3 +43,14 @@ fun withDefaultParameter(name: String = "Ulfah", age: Int){
     println("== with DEFAULT PARAMETER ==")
     println("Hello, $name! You are $age years old.")
 }
+
+/* fungsi withReturn : mengembalikan nilai
+fungsi mengembalikan hasil perkalian dari panjang dan lebar, dan kita bisa menyimpan
+atau menggunakan hasil tersebut di tempat lain.
+
+ println adalah fungsi untuk mencetak nilai ke layar, dan tidak mengembalikan nilai apa pun.
+*/
+
+fun withReturn(panjang : Int, lebar : Int) {
+    return println ( panjang * lebar)
+}
