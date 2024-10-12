@@ -98,10 +98,14 @@ fun ContohMap() {
     println(shape)
 
     // Menambahkan data ke dalam MAP Mutable
-    shape["Rectangle"] = 4 // namaObjek["(Data)"] = (value)
+    shape["Rectangle"] = 4 // namaObjek["(Data yg ingin ditambahkan)"] = (value)
     println(shape)
 
     // Menghapus data dari MAP Mutable
     shape.remove("Circle") // namaObjek.remove
+    println(shape)
+
+    // Mengubah data di dalam MAP Mutable
+    shape["Square"] = 5 // namaObjek["(data yg ingin diubah)" = (value)
     println(shape)
 }
