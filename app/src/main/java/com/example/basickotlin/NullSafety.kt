@@ -40,5 +40,11 @@ fun nullSafety(){
  untuk mengembalikan nilai null jika properti objek bernilai null.
  Hal ini berguna jika Anda ingin menghindari adanya nilai null yang memicu kesalahan dalam kode Anda.*/
 
+    println(neverNull.length) // 18
+    /* Pada baris ini, kita mencetak panjang dari string yang ada di variabel neverNull.
+    Karena neverNull adalah variabel non-nullable (dideklarasikan sebagai String tanpa tanda tanya),
+    kita bisa langsung mengakses propertinya.
+    neverNull memiliki nilai "This can't be null", maka panjang string tersebut adalah 18 karakter
+    */
 
 }
