@@ -12,6 +12,10 @@ fun ConditionalStatement() {
     println("=== CONDITIONAL EXPRESSION ===")
 
     // if-else
+    /*
+    ekspresi If-Else. menampilkan Positive Number apabila angka lebih besar dari 0
+    dan menampilkan Negative Number apabila angka kurang dari 0
+    */
     val number = 10
     if (number > 0) {
         println("Positive Number")
@@ -20,6 +24,9 @@ fun ConditionalStatement() {
     }
 
     // when
+    /*ekspresi When digunakan ketika memiliki beberapa cabang dan menggunakan tanda panah ->
+    untuk memisahkan setiap kondisi dari setiap tindakan.
+    */
     val day = 1
     when (day){
         1 -> println("Sunday")
@@ -33,6 +40,7 @@ fun ConditionalStatement() {
     }
 
     // try-catch
+    /* Ekspresi try-catch untuk mencegah program berhenti tiba-tiba karena error.*/
     val value = "10"
     try {
         val result = value.toInt()
@@ -40,4 +48,22 @@ fun ConditionalStatement() {
     } catch (e: NumberFormatException){
         println("Invalid Number")
     }
+}
+
+fun Perulangan() {
+    println()
+    println("=== PERULANGAN ===")
+
+    //FOR
+    /* untuk mengulang serangkaian nilai dan suatu tindakan
+    $i berarti nilai dari variabel i akan disisipkan ke dalam string "Perulangan ke-".
+    Jadi, pada setiap iterasi dari loop, i akan memiliki nilai yang berbeda, dan
+    string tersebut akan menampilkan hasil dengan nilai dari i yang dimasukkan secara dinamis.
+
+    1..5 berarti dari angka 1 hingga 5
+    */
+    for (i in 1..5){
+        println("Perulangan ke-$i")
+    }
+
 }
