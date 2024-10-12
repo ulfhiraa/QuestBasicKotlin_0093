@@ -6,3 +6,10 @@ package com.example.basickotlin
 * MUTEABLE -> data yang dimasukkan dapat diubah (listof)
 * READ-ONLY -> data tidak dapat diubah (mutableListof)
 */
+
+fun ContohList(){
+    println("=== LIST ===")
+    // LIST Read-Only, data tidak bisa diubah
+    val readOnlyAbjad = listOf("A", "B", "C")
+    println(readOnlyAbjad)
+}
