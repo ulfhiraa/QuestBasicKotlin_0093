@@ -12,3 +12,11 @@ class Motor() // class dengan objek Motor
 class dengan objek Contact, dengan 2 parameter : id dan email.
 val : data tidak dapat diubah | var : data dapat diubah */
 class Contact(val id: Int, var email: String)
+
+fun main() {
+    // properti id dan email
+    val contact = Contact(1, "jooniera@gmai.com")
+
+    // Prints the value of the property: email | menampilkan properti email
+    println(contact.email)
+}
