@@ -22,4 +22,7 @@ fun main(){
     val data = DataClass(1, "ulfah@gmail.com")
     println(data)
 
+    // Fungsi Equals or == : Membandingkan instance dari suatu kelas dengan operator ==
+    val data2 = DataClass(1, "ayam@gmail.com") // false karena idnya sama tapi emailnya beda
+    println(data == data2)
 }
