@@ -33,6 +33,10 @@ fun ContohList(){
     println(shape)
 
     // Mengubah data di dalam List Mutable
-    shape[0] = "Oval"
+    shape[0] = "Oval" // mengubah data pada index ke-0 (circle menjadi oval).
     println(shape)
+
+    // List Read-Only
+    val shapesLocked: List<String> = shape
+    println(shapesLocked)
 }
