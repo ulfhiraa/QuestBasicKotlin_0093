@@ -34,7 +34,7 @@ fun main() {
     val charValue: Char = 'A'
     println("Char: $charValue")
 
-    //BOOLEANS
+    //BOOLEANS : Boolean
     // Boolean
     val booleanValue: Boolean = true
     println("Boolean: $booleanValue")
