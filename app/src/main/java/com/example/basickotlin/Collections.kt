@@ -55,7 +55,11 @@ fun ContohSet() {
     println()
     println("=== SET ===")
 
-    // SET Read-Only
+    // SET Read-Only, Data tidak dapat diubah
     val readOnlyAbjad = setOf("A", "B", "C")
     println(readOnlyAbjad)
+
+    // SET Mutable, Data dapat diubah
+    val shape: MutableSet<String> = mutableSetOf("Circle", "Square", "Triangle")
+    println(shape)
 }
