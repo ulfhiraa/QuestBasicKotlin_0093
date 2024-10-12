@@ -108,4 +108,8 @@ fun ContohMap() {
     // Mengubah data di dalam MAP Mutable
     shape["Square"] = 5 // namaObjek["(data yg ingin diubah)" = (value)
     println(shape)
+
+    // MAP Read-Only, Locked untuk mengunci agar data tidak bisa diubah
+    val shapesLocked: Map<String, Int> = shape
+    println(shapesLocked)
 }
