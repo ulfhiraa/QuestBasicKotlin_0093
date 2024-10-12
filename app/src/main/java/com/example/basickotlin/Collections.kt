@@ -64,6 +64,10 @@ fun ContohSet() {
     println(shape)
 
     // Menambahkan data ke dalam SET Mutable
-    shape.add("Rectangle")
+    shape.add("Rectangle") // namaObjek.add
+    println(shape)
+
+    // Menghapus data dari SET Mutable
+    shape.remove("Circle")
     println(shape)
 }
