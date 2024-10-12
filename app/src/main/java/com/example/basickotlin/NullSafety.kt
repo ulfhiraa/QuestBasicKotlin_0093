@@ -47,4 +47,13 @@ fun nullSafety(){
     neverNull memiliki nilai "This can't be null", maka panjang string tersebut adalah 18 karakter
     */
 
+    println(nullable?.length) // null
+    /* nullable?.length menggunakan safe call operator untuk menghindari error saat variabel bernilai null.
+    Jika nullable memang null, maka panjangnya tidak dapat diakses, dan hasilnya akan null.
+
+    disini mencetak panjang dari string yang ada di variabel nullable.
+    Karena nullable dideklarasikan sebagai nullable (String?), kita menggunakan safe call operator (?.)
+    untuk menghindari NullPointerException.
+    Jika nullable memiliki nilai null, maka pemanggilan nullable?.length juga akan menghasilkan null.
+    */
 }
