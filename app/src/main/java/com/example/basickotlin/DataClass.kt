@@ -25,4 +25,13 @@ fun main(){
     // Fungsi Equals or == : Membandingkan instance dari suatu kelas dengan operator ==
     val data2 = DataClass(1, "ayam@gmail.com") // false karena idnya sama tapi emailnya beda
     println(data == data2)
+
+    /* Fungsi Copy : Membuat contoh kelas dengan menyalin kelas lain, yang mungkin memiliki beberapa properti berbeda.
+    membuat salinan (copy) dari suatu objek dengan kemampuan mengubah nilai beberapa atribut tanpa mengubah objek aslinya.*/
+    val data3 = data.copy()
+    println(data3)
+
+    // Fungsi Copy dengan perubahan
+    val data4 = data.copy(email = "nanana@gmail.com") // mengganti data email, id nya tetap karena copy
+    println(data4)
 }
