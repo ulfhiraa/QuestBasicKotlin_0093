@@ -29,6 +29,10 @@ fun ContohList(){
     println(shape.last()) // elemet terakhir
     println(shape.count()) // jumlah elemen dalam shape
 
-    shape.removeAt(1) // menghapus data index ke-1 (dimulai dari 0)
+    shape.removeAt(1) // menghapus data index ke-1 atau elemen ke-2 (karena dimulai dari 0)
+    println(shape)
+
+    // Mengubah data di dalam List Mutable
+    shape[0] = "Oval"
     println(shape)
 }
