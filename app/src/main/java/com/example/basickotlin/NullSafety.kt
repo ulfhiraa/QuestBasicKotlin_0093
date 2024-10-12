@@ -18,11 +18,20 @@ fun nullSafety(){
     // neverNull has string type
     var neverNull: String = "This can't be null"
 
+    // var neverNull yang tidak boleh bernilai null
     // Throws a compiler error
     // neverNull = null
 
     // nullable has nullable String type
     var nullable: String? = "You can keep a null here"
+    //  var nullable yang boleh bernilai null karena ada tanda tanya '?'
     // This is OK
     nullable = null
+
+    // Check for null in conditions
+    if (neverNull == null){
+        println("inferredNonNull is null")
+    } else {
+        println("inferredNonNull is not null")
+    } // menampilkan inferredNonNull is not null
 }
