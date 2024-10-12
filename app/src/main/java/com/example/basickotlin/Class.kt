@@ -24,6 +24,6 @@ fun main() {
     contact.email = "lalala@gmail.com"
     // nama objek.namaproperti
 
-    // Prints the new value of the property: email | menampilkan properti email
+    // Prints the new value of the property: email | menampilkan properti email yang baru
     println(contact.email)
 }
