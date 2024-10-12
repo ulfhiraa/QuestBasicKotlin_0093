@@ -34,4 +34,11 @@ fun nullSafety(){
     } else {
         println("inferredNonNull is not null")
     } // menampilkan inferredNonNull is not null
+
+
+    /* SAFE CALL OPERATOR
+ untuk mengembalikan nilai null jika properti objek bernilai null.
+ Hal ini berguna jika Anda ingin menghindari adanya nilai null yang memicu kesalahan dalam kode Anda.*/
+
+
 }
