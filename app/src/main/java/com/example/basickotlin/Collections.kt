@@ -50,3 +50,12 @@ a) Unordered -> data yang dimasukkan tidak memiliki posisi tertentu (tidak urut)
 b)  - Mutable : data dapat diubah (mutableSetOf)
     - Read Only : data tidak dapat diubah (setOf)
 */
+
+fun ContohSet() {
+    println()
+    println("=== SET ===")
+
+    // SET Read-Only
+    val readOnlyAbjad = setOf("A", "B", "C")
+    println(readOnlyAbjad)
+}
