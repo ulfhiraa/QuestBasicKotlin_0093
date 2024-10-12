@@ -26,8 +26,20 @@ menyertakan nama parameter akan membuat kode Anda lebih mudah dibaca. Ini disebu
 Jika menyertakan nama parameter, maka kita dapat menulis parameter dalam urutan apa pun.
 */
 
+// with Named Argument : menyertakan nama parameter yang membuat kode lebih mudah dibaca.
 fun withNamedArgument(name: String, age: Int) {
     println()
     println("== with NAMED ARGUMENT ==")
     println("Hello, name$! You are $age years old")
+}
+
+
+/* DEFAULT PARAMETER VALUE
+ cara untuk memberikan nilai default pada parameter fungsi.
+ with Default Parameter : memberikan nilai default untuk parameter fungsi
+*/
+fun withDefaultParameter(name: String = "Ulfah", age: Int){
+    println()
+    println("== with DEFAULT PARAMETER ==")
+    println("Hello, $name! You are $age years old.")
 }
