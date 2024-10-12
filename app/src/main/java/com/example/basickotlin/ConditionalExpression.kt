@@ -85,4 +85,12 @@ fun Perulangan() {
         x++
     }
 
+    /* DO-WHILE
+    mengeksekusi blok kode terlebih dahulu dan kemudian memeriksa ekspresi kondisional (do-while)
+    */
+    var y = 1
+    do {
+        println("Perulangan ke-$y")
+        y++
+    } while ( y <= 5)
 }
