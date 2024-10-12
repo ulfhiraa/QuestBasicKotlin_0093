@@ -56,4 +56,20 @@ fun nullSafety(){
     untuk menghindari NullPointerException.
     Jika nullable memiliki nilai null, maka pemanggilan nullable?.length juga akan menghasilkan null.
     */
+
+    /* notNull doesn't accept null values
+    Kode ini membuat fungsi untuk menghitung berapa banyak karakter yang ada dalam sebuah string,
+    tapi hanya jika string tersebut tidak bernilai null. */
+    fun strLength(notNull: String): Int {
+        return notNull.length
+    }
+    /*Fungsi strLength yang menerima satu input (disebut notNull) yang harus berupa String
+    dan tidak boleh bernilai null. Jika kamu mencoba mengirim nilai null, program akan error.
+    return notNull.length: Ini mengembalikan jumlah karakter dalam string yang diberikan.
+    Properti length menghitung berapa banyak karakter dalam string itu.
+    println(strLength(neverNull)): Fungsi strLength dipanggil dengan variabel neverNull
+    (yang diasumsikan sebagai sebuah string dengan 18 karakter), dan hasilnya dicetak, yaitu 18.
+    */
+
+    println(strLength(neverNull)) // 18
 }
