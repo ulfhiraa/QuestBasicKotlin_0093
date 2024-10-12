@@ -13,3 +13,12 @@ Null safety adalah kombinasi dari fitur-fitur yang memungkinkan Anda untuk:
     Dengan mendeklarasikan variabel sebagai String?, kamu bisa menyimpannya dengan nilai null,
     yang sangat berguna dalam situasi di mana data mungkin tidak tersedia.
 */
+
+fun nullSafety(){
+    // neverNull has string type
+    var neverNull: String = "This can't be null"
+
+    // Throws a compiler error
+    // neverNull = null
+
+}
